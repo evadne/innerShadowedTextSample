@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF98CBA71510F80A0092ED4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF98CBA61510F80A0092ED4E /* UIKit.framework */; };
+		FF98CBA91510F80A0092ED4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF98CBA81510F80A0092ED4E /* Foundation.framework */; };
+		FF98CBAB1510F80A0092ED4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF98CBAA1510F80A0092ED4E /* CoreGraphics.framework */; };
+		FF98CBB11510F80A0092ED4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF98CBAF1510F80A0092ED4E /* InfoPlist.strings */; };
+		FF98CBB31510F80A0092ED4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF98CBB21510F80A0092ED4E /* main.m */; };
+		FF98CBB71510F80B0092ED4E /* ISTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF98CBB61510F80B0092ED4E /* ISTSAppDelegate.m */; };
+		FF98CBBF1510F82A0092ED4E /* ISTSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF98CBBE1510F82A0092ED4E /* ISTSLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF98CBA21510F80A0092ED4E /* innerShadowedTextSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = innerShadowedTextSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF98CBA61510F80A0092ED4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF98CBA81510F80A0092ED4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF98CBAA1510F80A0092ED4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF98CBAE1510F80A0092ED4E /* innerShadowedTextSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "innerShadowedTextSample-Info.plist"; sourceTree = "<group>"; };
+		FF98CBB01510F80A0092ED4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF98CBB21510F80A0092ED4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF98CBB41510F80A0092ED4E /* innerShadowedTextSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "innerShadowedTextSample-Prefix.pch"; sourceTree = "<group>"; };
+		FF98CBB51510F80A0092ED4E /* ISTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISTSAppDelegate.h; sourceTree = "<group>"; };
+		FF98CBB61510F80B0092ED4E /* ISTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISTSAppDelegate.m; sourceTree = "<group>"; };
+		FF98CBBD1510F82A0092ED4E /* ISTSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTSLabel.h; sourceTree = "<group>"; };
+		FF98CBBE1510F82A0092ED4E /* ISTSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTSLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF98CB9F1510F80A0092ED4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF98CBA71510F80A0092ED4E /* UIKit.framework in Frameworks */,
+				FF98CBA91510F80A0092ED4E /* Foundation.framework in Frameworks */,
+				FF98CBAB1510F80A0092ED4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF98CB971510F80A0092ED4E = {
+			isa = PBXGroup;
+			children = (
+				FF98CBAC1510F80A0092ED4E /* innerShadowedTextSample */,
+				FF98CBA51510F80A0092ED4E /* Frameworks */,
+				FF98CBA31510F80A0092ED4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF98CBA31510F80A0092ED4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF98CBA21510F80A0092ED4E /* innerShadowedTextSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF98CBA51510F80A0092ED4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF98CBA61510F80A0092ED4E /* UIKit.framework */,
+				FF98CBA81510F80A0092ED4E /* Foundation.framework */,
+				FF98CBAA1510F80A0092ED4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF98CBAC1510F80A0092ED4E /* innerShadowedTextSample */ = {
+			isa = PBXGroup;
+			children = (
+				FF98CBB51510F80A0092ED4E /* ISTSAppDelegate.h */,
+				FF98CBB61510F80B0092ED4E /* ISTSAppDelegate.m */,
+				FF98CBBD1510F82A0092ED4E /* ISTSLabel.h */,
+				FF98CBBE1510F82A0092ED4E /* ISTSLabel.m */,
+				FF98CBAD1510F80A0092ED4E /* Supporting Files */,
+			);
+			path = innerShadowedTextSample;
+			sourceTree = "<group>";
+		};
+		FF98CBAD1510F80A0092ED4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF98CBAE1510F80A0092ED4E /* innerShadowedTextSample-Info.plist */,
+				FF98CBAF1510F80A0092ED4E /* InfoPlist.strings */,
+				FF98CBB21510F80A0092ED4E /* main.m */,
+				FF98CBB41510F80A0092ED4E /* innerShadowedTextSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF98CBA11510F80A0092ED4E /* innerShadowedTextSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF98CBBA1510F80B0092ED4E /* Build configuration list for PBXNativeTarget "innerShadowedTextSample" */;
+			buildPhases = (
+				FF98CB9E1510F80A0092ED4E /* Sources */,
+				FF98CB9F1510F80A0092ED4E /* Frameworks */,
+				FF98CBA01510F80A0092ED4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = innerShadowedTextSample;
+			productName = innerShadowedTextSample;
+			productReference = FF98CBA21510F80A0092ED4E /* innerShadowedTextSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF98CB991510F80A0092ED4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ISTS;
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FF98CB9C1510F80A0092ED4E /* Build configuration list for PBXProject "innerShadowedTextSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF98CB971510F80A0092ED4E;
+			productRefGroup = FF98CBA31510F80A0092ED4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF98CBA11510F80A0092ED4E /* innerShadowedTextSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF98CBA01510F80A0092ED4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF98CBB11510F80A0092ED4E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF98CB9E1510F80A0092ED4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF98CBB31510F80A0092ED4E /* main.m in Sources */,
+				FF98CBB71510F80B0092ED4E /* ISTSAppDelegate.m in Sources */,
+				FF98CBBF1510F82A0092ED4E /* ISTSLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF98CBAF1510F80A0092ED4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF98CBB01510F80A0092ED4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF98CBB81510F80B0092ED4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF98CBB91510F80B0092ED4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF98CBBB1510F80B0092ED4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "innerShadowedTextSample/innerShadowedTextSample-Prefix.pch";
+				INFOPLIST_FILE = "innerShadowedTextSample/innerShadowedTextSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF98CBBC1510F80B0092ED4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "innerShadowedTextSample/innerShadowedTextSample-Prefix.pch";
+				INFOPLIST_FILE = "innerShadowedTextSample/innerShadowedTextSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF98CB9C1510F80A0092ED4E /* Build configuration list for PBXProject "innerShadowedTextSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF98CBB81510F80B0092ED4E /* Debug */,
+				FF98CBB91510F80B0092ED4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF98CBBA1510F80B0092ED4E /* Build configuration list for PBXNativeTarget "innerShadowedTextSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF98CBBB1510F80B0092ED4E /* Debug */,
+				FF98CBBC1510F80B0092ED4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF98CB991510F80A0092ED4E /* Project object */;
+}
